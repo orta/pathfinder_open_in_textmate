@@ -29,10 +29,9 @@
 - (NSMenuItem*)menuItem;
 {
   NSMenuItem* menuItem;
-	
-  menuItem = [[[NSMenuItem alloc] initWithTitle:@"Open in Textmate" action:@selector(pluginAction:) keyEquivalent:@"t"] autorelease];
+
+  menuItem = [[[NSMenuItem alloc] initWithTitle:@"Open in Textmate" action:@selector(pluginAction:) keyEquivalent:@""] autorelease];
   [menuItem setTarget:self];
-	[menuItem setKeyEquivalentModifierMask: NSControlKeyMask | NSCommandKeyMask];
   return menuItem;
 }
 

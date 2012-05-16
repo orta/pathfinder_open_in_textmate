@@ -9,7 +9,7 @@
 #import <Cocoa/Cocoa.h>
 
   // if XCode warns that it can't find this file, you need to setup your 
-  // header_searcarch_paths to the Pathfinder SDK 
+  // header_search_paths to the Pathfinder SDK 
   // HEADER_SEARCH_PATHS = "../../CocoatechPluginProtocols"
   // by default it will look for the folder in your downloads
 
